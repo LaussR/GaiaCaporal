@@ -108,17 +108,17 @@
             <!-- Checkboxes -->
             <CheckBox
                 android:id="@+id/check_terminos"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Acepto términos y condiciones"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="8dp"
+                android:text="Acepto términos y condiciones" />
 
             <CheckBox
                 android:id="@+id/check_politicas"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Acepto políticas de privacidad"
-                android:layout_marginTop="4dp"/>
+                android:layout_marginTop="4dp"
+                android:text="Acepto políticas de privacidad" />
 
             <!-- Botón de registro -->
             <Button

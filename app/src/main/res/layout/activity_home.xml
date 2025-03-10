@@ -24,9 +24,9 @@
                 android:id="@+id/menuButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@android:drawable/ic_menu"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:contentDescription="Menú"
-                android:background="?attr/selectableItemBackgroundBorderless" />
+                android:src="@drawable/menu" />
 
             <TextView
                 android:id="@+id/appTitle"
@@ -112,26 +112,29 @@
             <ImageButton
                 android:id="@+id/nav_map"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="56dp"
                 android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
                 android:contentDescription="Mapa"
-                android:src="@android:drawable/ic_menu_mapmode" />
+                android:src="@drawable/map_gray" />
 
             <ImageButton
                 android:id="@+id/nav_cart"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="56dp"
                 android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
                 android:contentDescription="Carrito"
-                android:src="@android:drawable/ic_menu_add" />
+                android:src="@drawable/market_gray" />
 
             <ImageButton
                 android:id="@+id/nav_search"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="56dp"
                 android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
                 android:contentDescription="Buscar"
-                android:src="@android:drawable/ic_menu_search" />
+                android:src="@drawable/buscar_gray" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
