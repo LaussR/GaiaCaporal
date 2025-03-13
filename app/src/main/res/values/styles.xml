@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BtnPimary">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="BtnBack">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">oval</item>
+    </style>
+
+    <style name="BtnSecundary">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="BtnTerciary">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="Product">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="Inpt">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="InptSearch">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="InptGreen">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="Pin">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">#DCCEB4</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:backgroundTint">#DCCEB4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shape">oval</item>
+    </style>
+
+</resources>
