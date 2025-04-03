@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -50,15 +51,12 @@
     <!-- Botón Iniciar sesión -->
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        style="@style/BtnPimary"
         android:layout_below="@id/passwordInput"
-        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:text="Iniciar sesión"
-        android:backgroundTint="#8B5E3B"
-        android:textColor="@android:color/white"
-        android:padding="10dp" />
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Iniciar sesión"/>
 
     <!-- Texto para recuperar contraseña -->
     <TextView

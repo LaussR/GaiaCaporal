@@ -16,7 +16,7 @@ public class Registro extends AppCompatActivity {
         // Habilitar la flecha de retroceso en el Toolbar
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back_arrow); // Ícono de flecha
+//            getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back_arrow); // Ícono de flecha
         }
     }
 
