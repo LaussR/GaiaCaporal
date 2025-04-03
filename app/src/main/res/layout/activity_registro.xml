@@ -19,13 +19,17 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp">
+        android:paddingTop="0dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:gravity="center_horizontal">
+            android:gravity="center_horizontal"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
 
             <!-- Título -->
             <TextView
@@ -40,77 +44,70 @@
             <!-- Campos de entrada -->
             <EditText
                 android:id="@+id/et_nombres"
+                style="@style/InptGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nombres"
-                android:background="@drawable/edittext_background"
-                android:padding="12dp"/>
+                android:hint="Nombres"/>
 
             <EditText
                 android:id="@+id/et_apellidos"
+                style="@style/InptGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Apellidos"
-                android:background="@drawable/edittext_background"
-                android:padding="12dp"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="10dp"/>
 
             <EditText
                 android:id="@+id/et_celular"
+                style="@style/InptGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Celular"
                 android:inputType="phone"
-                android:background="@drawable/edittext_background"
-                android:padding="12dp"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="10dp"/>
 
             <EditText
                 android:id="@+id/et_correo"
+                style="@style/InptGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Correo"
                 android:inputType="textEmailAddress"
-                android:background="@drawable/edittext_background"
-                android:padding="12dp"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="10dp"/>
 
             <EditText
                 android:id="@+id/et_fecha_nacimiento"
+                style="@style/InptGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Fecha de nacimiento"
                 android:focusable="false"
-                android:background="@drawable/edittext_background"
-                android:padding="12dp"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="10dp"/>
 
             <EditText
                 android:id="@+id/et_contrasena"
+                style="@style/InptGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Contraseña"
                 android:inputType="textPassword"
-                android:background="@drawable/edittext_background"
-                android:padding="12dp"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="10dp"/>
 
             <EditText
                 android:id="@+id/et_confirmar_contrasena"
+                style="@style/InptGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Confirmar contraseña"
                 android:inputType="textPassword"
-                android:background="@drawable/edittext_background"
-                android:padding="12dp"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="10dp"/>
 
             <!-- Checkboxes -->
             <CheckBox
                 android:id="@+id/check_terminos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="10dp"
                 android:text="Acepto términos y condiciones" />
 
             <CheckBox
