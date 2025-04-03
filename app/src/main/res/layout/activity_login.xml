@@ -49,14 +49,13 @@
         android:background="@android:drawable/editbox_background" />
 
     <!-- Botón Iniciar sesión -->
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/loginButton"
         style="@style/BtnPimary"
         android:layout_below="@id/passwordInput"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:padding="10dp"
-        android:text="Iniciar sesión"/>
+        android:text="Iniciar sesión" />
 
     <!-- Texto para recuperar contraseña -->
     <TextView
@@ -73,16 +72,12 @@
         android:focusable="true" />
 
     <!-- Botón Registrarse -->
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/registerButton"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/forgotPassword"
-        android:layout_marginTop="20dp"
+        style="@style/BtnPimary"
         android:layout_centerHorizontal="true"
-        android:text="Registrarse"
-        android:backgroundTint="#C89B6D"
-        android:textColor="@android:color/white"
-        android:padding="10dp" />
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/forgotPassword"
+        android:text="Registrarse" />
 
 </RelativeLayout>

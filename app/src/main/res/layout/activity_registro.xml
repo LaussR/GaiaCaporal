@@ -3,19 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F5FCE8">
+    android:background="@color/Background">
 
-    <!-- Toolbar con flecha de retroceso -->
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="#D4ED91"
-        android:title="Registro"
-        android:titleTextColor="#000"
-        android:elevation="4dp"/>
 
     <!-- ScrollView para formulario -->
+
+    <ImageButton
+        android:id="@+id/btnBack4"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/Background"
+        android:contentDescription="Mapa"
+        android:src="@drawable/btnback" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -121,14 +121,14 @@
                 android:text="Acepto políticas de privacidad" />
 
             <!-- Botón de registro -->
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_registrarse"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Registrate"
-                android:backgroundTint="#A67C52"
-                android:textColor="#FFFFFF"
-                android:layout_marginTop="16dp"/>
+                style="@style/BtnPimary"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/check_politicas"
+                android:text="Registrarse" />
+
         </LinearLayout>
     </ScrollView>
 

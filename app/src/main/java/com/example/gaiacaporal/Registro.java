@@ -10,8 +10,8 @@ public class Registro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro); // Asegúrate de que el nombre del XML sea correcto
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
         // Habilitar la flecha de retroceso en el Toolbar
         if (getSupportActionBar() != null) {
