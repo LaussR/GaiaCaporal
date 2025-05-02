@@ -2,6 +2,7 @@ package com.example.gaiacaporal;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -16,6 +17,7 @@ public class Home extends AppCompatActivity {
 
         drawerLayout = findViewById(R.id.drawer_layout);
         ImageButton menuButton = findViewById(R.id.menuButton);
+        Button btnPedido = findViewById(R.id.btnPedido); //se llaman los botones
 
         // Abrir y cerrar el menú lateral al tocar el botón
         menuButton.setOnClickListener(new View.OnClickListener() {
@@ -28,5 +30,13 @@ public class Home extends AppCompatActivity {
                 }
             }
         });
+
+        //boton redirige a la pagina de pedidos
+        btnPedido.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        }
     }
 }
