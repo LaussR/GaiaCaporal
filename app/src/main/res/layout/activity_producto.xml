@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/appTitle3"
+        android:id="@+id/appNombreProducto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toBottomOf="@+id/topBar" />
 
     <TextView
-        android:id="@+id/appTitle13"
+        android:id="@+id/appPrecio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/topBar" />
 
     <TextView
-        android:id="@+id/appTitle14"
+        android:id="@+id/appDescription"
         android:layout_width="359dp"
         android:layout_height="97dp"
         android:layout_centerInParent="true"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/topBar" />
 
     <ImageView
-        android:id="@+id/headerImage5"
+        android:id="@+id/ImgProduct"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
