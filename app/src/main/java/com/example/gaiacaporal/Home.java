@@ -33,13 +33,13 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        //boton redirige a la pagina de pedidos
+        //boton redirige a la pagina
         btnPedido.setOnClickListener(v -> {
                 Intent intent = new Intent(Home.this, Market.class);
                 startActivity(intent);
         });
 
-        //boton redirige a la pagina de pedidos
+        //boton redirige a la pagina
         nav_cart.setOnClickListener(v -> {
             Intent intent = new Intent(Home.this, Market.class);
             startActivity(intent);
